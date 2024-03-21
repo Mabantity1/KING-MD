@@ -16,7 +16,7 @@ global.website = 'https://github.com/naveeddogar/KING-MD' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/a6b9bbde7feaa92c69c7b.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'KING-TAKX' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'ꪶ⇾🪀☻᳡ɪͥᴛͭsᷤ ᴍͫᴇͤ ❥⃝🇿🇼◈𝔱𝔞𝔨𝔲𝔫𝔡𝔞-𝔠𝔥𝔞𝔯𝔩𝔢𝔰-𝔪𝔲𝔫𝔶𝔬𝔯𝔬⁩⁩⁩' : process.env.OWNER_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'ɪͥᴛͭsᷤ ᴍͫᴇͤ 𝔱𝔞𝔨𝔲𝔫𝔡𝔞-𝔠𝔥𝔞𝔯𝔩𝔢𝔰-𝔪𝔲𝔫𝔶𝔬𝔯𝔬⁩⁩⁩' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'Naveed-Dogar' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
@@ -34,7 +34,7 @@ module.exports = {
   antilink:  process.env.ANTILINK_VALUES === undefined ? 'chat.whatsapp.com' : process.env.ANTILINK_VALUES,
   antilinkaction: process.env.ANTILINK_ACTION === undefined ? 'remove' : process.env.ANTILINK_ACTION,
   BRANCH: 'main', 
-  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '𝔱𝔞𝔨𝔲𝔫𝔡𝔞-𝔠𝔥𝔞𝔯𝔩𝔢𝔰-𝔪𝔲𝔫𝔶𝔬𝔯𝔬-𝔟𝔬𝔱⁩⁩⁩' : process.env.ALIVE_MESSAGE,
+  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '𝔱𝔞𝔨𝔲𝔫𝔡𝔞-𝔠𝔥𝔞𝔯𝔩𝔢𝔰-𝔪𝔲𝔫𝔶𝔬𝔯𝔬' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? false : process.env.AUTO_BIO,
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
